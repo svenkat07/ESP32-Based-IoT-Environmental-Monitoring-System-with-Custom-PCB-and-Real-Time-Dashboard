@@ -1,0 +1,10 @@
+Designator,Component,Selection status,Notes
+U1,ESP32-WROOM-32E,Proposed,Use official symbol and footprint
+U2,BME280,Proposed,Choose exact package and address strapping
+U3,USB UART bridge,TBD,Choose chip and circuit
+U4,3.3V regulator,TBD,Size for ESP32 peak draw
+J1,USB-C connector,TBD,Power and programming
+R1-R2,4.7k I2C pull-ups,Proposed,Verify bus voltage and capacitance
+SW1,Reset switch,Proposed,EN network per reference design
+SW2,Boot switch,Proposed,GPIO0 strapping per reference design
+C*,Decoupling and bulk capacitors,TBD,Size using manufacturer references
